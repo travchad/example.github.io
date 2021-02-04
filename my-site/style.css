@@ -1,0 +1,44 @@
+/* .class, nothing before element tag, #id */
+/* Nav Styling */
+.nav-link {
+  font-size: x-large;
+  padding: 10px 20px;
+  /* padding vertical then horizontal */
+  margin-right: 3em; 
+  /* 3em is relative to device size */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Home Styling */
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+#tagline {
+  text-align: center;
+  font-size: 3rem;
+  color: blue;
+}
+
+/* Project Styling */
+.carousel-captain {
+  color: white;
+}
+
+/* Skills Styling */
+ion-icon {
+  font-size: 64px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  background-color: blue !important;
+  /* !important overrides bootstrap's color parameter */
+}
+
+/* this is important for making shit look normal */
+img {
+  max-width: 100%;
+}
